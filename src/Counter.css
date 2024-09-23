@@ -1,0 +1,35 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.count-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: auto;
+}
+
+.btn-primary {
+    background-color: green;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: red;
+    color: #fff;
+}
